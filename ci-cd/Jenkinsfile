@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/preetishinge/Enterprise-CI-CD-K8s-DevSecOps'
+                git branch: 'master', url: 'https://github.com/preetishinge/Enterprise-CICD-K8s-DevSecOps'
             }
         }
         stage('SonarQube Scan') {
